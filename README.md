@@ -1,16 +1,48 @@
-# React + Vite
+🍽️ Cuisine Explorer AI
+AI-powered recipe generation based on ingredients you already have!
+Cuisine Explorer AI is a full-stack application that intelligently generates personalized recipes and food images using Google Gemini models.
+Users can enter available ingredients, and the system returns a complete recipe—including title, ingredients, instructions, flavor enhancements, and a suggested YouTube search keyword—along with an AI-generated food image.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates modern UI/UX design, backend API engineering, prompt engineering, and seamless full-stack AI integration.
 
-Currently, two official plugins are available:
+ Features:
+AI-powered recipe creation using Google Gemini 2.5 Flash
+Ultra-realistic food image generation
+Modern, responsive UI inspired by a custom Figma design
+Ingredient recommendation chips for improved UX
+Retry & error-handled fetch logic
+Secure backend routing to protect API keys
+Animation-enhanced user experience
+Modular, production-ready codebase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+Frontend:
+React (Vite)
+TailwindCSS / Custom CSS
+JavaScript (ES6+)
 
-## React Compiler
+Backend:
+Node.js
+Express.js
+dotenv for secure environment variables
+Google Gemini API for Text and Image Models
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Project Structure:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+cuisine-explorer/
+│
+├── server/               # Backend
+│   ├── index.cjs         # Express server + Gemini API routing
+│   ├── package.json
+│   └── .env
+│
+├── src/                  # React Frontend
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── assets/
+│
+├── .env                  # Frontend env file
+├── package.json
+├── vite.config.js
+└── README.md
