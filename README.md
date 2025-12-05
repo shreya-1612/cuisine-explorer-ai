@@ -6,6 +6,7 @@ Users can enter available ingredients, and the system returns a complete recipeâ
 This project demonstrates modern UI/UX design, backend API engineering, prompt engineering, and seamless full-stack AI integration.
 
  Features:
+ 
 AI-powered recipe creation using Google Gemini 2.5 Flash
 
 Ultra-realistic food image generation
