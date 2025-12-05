@@ -7,24 +7,39 @@ This project demonstrates modern UI/UX design, backend API engineering, prompt e
 
  Features:
 AI-powered recipe creation using Google Gemini 2.5 Flash
+
 Ultra-realistic food image generation
+
 Modern, responsive UI inspired by a custom Figma design
+
 Ingredient recommendation chips for improved UX
+
 Retry & error-handled fetch logic
+
 Secure backend routing to protect API keys
+
 Animation-enhanced user experience
+
 Modular, production-ready codebase
 
 Tech Stack:
+
 Frontend:
+
 React (Vite)
+
 TailwindCSS / Custom CSS
+
 JavaScript (ES6+)
 
 Backend:
+
 Node.js
+
 Express.js
+
 dotenv for secure environment variables
+
 Google Gemini API for Text and Image Models
 
 
