@@ -27,22 +27,4 @@ Express.js
 dotenv for secure environment variables
 Google Gemini API for Text and Image Models
 
-Project Structure:
 
-cuisine-explorer/
-│
-├── server/               # Backend
-│   ├── index.cjs         # Express server + Gemini API routing
-│   ├── package.json
-│   └── .env
-│
-├── src/                  # React Frontend
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── assets/
-│
-├── .env                  # Frontend env file
-├── package.json
-├── vite.config.js
-└── README.md
