@@ -1,4 +1,4 @@
-🍽️ Cuisine Explorer AI
+ Cuisine Explorer AI
 AI-powered recipe generation based on ingredients you already have!
 Cuisine Explorer AI is a full-stack application that intelligently generates personalized recipes and food images using Google Gemini models.
 Users can enter available ingredients, and the system returns a complete recipe—including title, ingredients, instructions, flavor enhancements, and a suggested YouTube search keyword—along with an AI-generated food image.
